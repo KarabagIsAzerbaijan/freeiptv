@@ -40,10 +40,10 @@ jobs:
         run: |
           dastrm=${dastrm}
           erstrm=${erstrm}
-          sed -i "\|daioncdn.net/nowtv| c $dastrm" all.m3u
-          sed -i "\|ercdn.net/nowtv| c $erstrm" all.m3u
-          sed -i "\|daioncdn.net/nowtv| c $dastrm" ressources/allgr.m3u
-          sed -i "\|ercdn.net/nowtv| c $erstrm" ressources/allgr.m3u
+          sed -i "\|daioncdn.net/nowtv| c $dastrm" fox.m3u
+          sed -i "\|ercdn.net/nowtv| c $erstrm" fox.m3u
+          sed -i "\|daioncdn.net/nowtv| c $dastrm" ressources/fox.m3u
+          sed -i "\|ercdn.net/nowtv| c $erstrm" ressources/fox.m3u
 
       - name: git add
         run: |
