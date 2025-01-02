@@ -53,6 +53,6 @@ jobs:
       - name: commit & push
         run: |
           git pull
-          git add all.m3u ressources/allgr.m3u
+          git add fox.m3u ressources/fox.m3u
           git commit -m "nowtrnew updated"
           git push
